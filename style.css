@@ -49,10 +49,9 @@ header {
   padding: 1.2rem 2rem;
 }
 
-/*-- main --*/
 .logo {
   font-weight: 600;
-  font-size: 2.13rem;
+  font-size: 1.8rem;
   color: #f2c138;
 }
 
@@ -60,18 +59,18 @@ nav ul {
   display: flex;
   gap: 1rem;
   align-items: center;
-  font-size: 1.54rem;
 }
 
 nav a {
   text-decoration: none;
   color: #f2c138;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
   color: #0077cc;
 }
+
 
 
 
@@ -89,7 +88,7 @@ nav a:hover {
 }
 
 .logo-img {
-  width: 60px;
+  width: 50px;
   height: auto;
 }
 
@@ -100,7 +99,7 @@ nav a:hover {
 }
 
 .logo-text .subtitle {
-  font-size: 1.72rem;
+  font-size: 1.36rem;
   color: #f2c138;
   margin-top: 0.1rem;
 }
@@ -130,13 +129,13 @@ nav a:hover {
 
 .btn.small {
   padding: 0.4rem 1rem;
-  font-size: 1.54rem;
+  font-size: 0.9rem;
 }
 
 /* HERO SECTION */
 .hero {
   color: white;
-  padding: 10.9rem 1rem;
+  padding: 15rem 1rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -168,6 +167,7 @@ nav a:hover {
 
 
 
+
 .hero h2 {
   font-size: 6rem;
   font-weight: bold;
@@ -180,7 +180,7 @@ nav a:hover {
 }
 
 .hero p {
-  font-size: 2.53rem;
+  font-size: 1.2rem;
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateY(20px);
@@ -190,12 +190,12 @@ nav a:hover {
 
 /* SECTION BASE STYLES */
 section {
-  padding: 5.1rem 0;
+  padding: 6rem 0;
 }
 
 .section-title {
   text-align: center;
-  font-size: 3.07rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   color: #f5f5f5;
   opacity: 0;
@@ -227,9 +227,8 @@ form label {
 .services {
   background-color: #0E1034;
   padding: 6rem 0;
-  text-align: center; /* --- text ---*/
+  text-align: center;
 }
-
 
 .section-subtitle {
   color: #eab51d;
@@ -238,7 +237,6 @@ form label {
   font-size: 1.1rem;
   line-height: 1.6;
 }
-
 
 .service-cards {
   display: grid;
@@ -261,7 +259,6 @@ form label {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0,0,0,0.12);
 }
-
 
 .service-card i {
   font-size: 2.5rem;
@@ -292,7 +289,6 @@ form label {
   opacity: 1;
   transform: translateY(0);
 }
-
 
 
 
@@ -366,6 +362,7 @@ form label {
 
 
 
+
 /* TESTIMONIALS SECTION */
 .testimonial-list {
   display: grid;
@@ -380,7 +377,6 @@ form label {
   border-radius: 51px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   font-style: italic;
-  font-size: 1.45rem;
   text-align: center;
 }
 
@@ -502,10 +498,10 @@ section:target::before {
   left: 0;
   background: #fff;
   border: 1px solid #ddd;
-  border-radius: 6px;
+  border-radius: 4px;
   display: none;
   flex-direction: column;
-  width: 250px;
+  min-width: 200px;
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -515,12 +511,11 @@ section:target::before {
 }
 
 .dropdown-menu li a {
-  padding: 0.75rem 2rem;
+  padding: 0.50rem 2rem;
   display: block;
   color: #333;
   background: transparent; /* No background color here */
   border-bottom: 1px solid #eee; /* Optional separator */
-  font-size: 1.0rem;
 }
 
 .dropdown-menu li:last-child a {
@@ -619,7 +614,7 @@ html {
 }
 
 .service-row {
-  scroll-margin-top: 11rem;
+  scroll-margin-top: 6rem;
 }
 
 /* ZIGZAG LAYOUT */
@@ -627,7 +622,7 @@ html {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 7.3rem;
+  margin-bottom: 4rem;
   flex-wrap: wrap;
 }
 .service-row.reverse {
@@ -635,26 +630,25 @@ html {
 }
 .service-row img {
   flex: 1;
-  max-width: 510px;
-  height: 352px;
+  max-width: 500px;
+  height: 300px;
   object-fit: cover;
-  border-radius: 19px;
+  border-radius: 10px;
 }
 .service-info {
   flex: 1;
   color: #f5f5f5;
 }
 .service-info h4 {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
   color: #EAB51D;
 }
 .service-info p {
-  font-size: 1.9rem;
+  font-size: 1rem;
   margin-bottom: 1.2rem;
   line-height: 1.6;
 }
-
 
 
 /*ABOUT*/
@@ -738,7 +732,6 @@ html {
   margin-right: 1rem;
 }
 
-
   
 
 
@@ -787,7 +780,6 @@ nav ul {
     height: auto;
   }
 
-
   /* About container styles for smaller screens */
   .about-container {
     flex-direction: column;
@@ -801,9 +793,8 @@ nav ul {
 }
 
 
+
 /* Hover effect: darken overlay */
 .card:hover::before {
   background-color: rgba(0, 119, 204, 0.7);
-
 }
-
