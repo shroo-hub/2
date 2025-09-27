@@ -135,7 +135,7 @@ nav a:hover {
 /* HERO SECTION */
 .hero {
   color: white;
-  padding: 15rem 1rem;
+  padding: 10.9rem 1rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -164,8 +164,6 @@ nav a:hover {
   background: rgba(0,0,0,0.4); /* Adjust darkness */
   z-index: -1;
 }
-
-
 
 
 .hero h2 {
@@ -359,10 +357,6 @@ form label {
 
 
 
-
-
-
-
 /* TESTIMONIALS SECTION */
 .testimonial-list {
   display: grid;
@@ -501,7 +495,7 @@ section:target::before {
   border-radius: 4px;
   display: none;
   flex-direction: column;
-  min-width: 200px;
+  width: 204px;
   z-index: 1000;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -798,3 +792,4 @@ nav ul {
 .card:hover::before {
   background-color: rgba(0, 119, 204, 0.7);
 }
+
