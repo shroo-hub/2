@@ -802,7 +802,29 @@ nav ul {
 
 
 
+
+
+
+
+
+
+@media (max-width: 480px) {
+  header {
+    background-color: #555;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+
 /* Hover effect: darken overlay */
 .card:hover::before {
   background-color: rgba(0, 119, 204, 0.7);
+
 }
