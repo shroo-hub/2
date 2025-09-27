@@ -34,7 +34,7 @@ ul {
 
 /* HEADER */
 header {
-  background-color: #fff;
+  background-color: #0e1034;
   border-bottom: 1px solid #e0e0e0;
   padding: 1rem 0;
   position: sticky;
@@ -404,9 +404,12 @@ textarea {
 
 /* FOOTER */
 footer {
-  background-color: #fff;
+  background-color: #0e1034;
   color: #EAB51D;
   padding: 2rem 0;
+  border-top: 1px solid #e0e0e0;
+  bottom: 0;
+  z-index: 999;
 }
 
 .footer-social {
@@ -695,14 +698,14 @@ html {
 }
 
 .social-icons a {
-  color: #0e1034;
+  color: #EAB51D;
   font-size: 1.5rem;
   margin: 0 0.5rem;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #EAB51D;
+  color: #fff;
 }
 
 .about-info {
@@ -792,4 +795,5 @@ nav ul {
 .card:hover::before {
   background-color: rgba(0, 119, 204, 0.7);
 }
+
 
